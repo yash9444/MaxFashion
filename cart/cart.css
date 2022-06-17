@@ -1,0 +1,41 @@
+
+#display {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 450px);
+    gap: 30px;
+    margin-top: 80px;
+    padding: 30px 30px;
+  }
+  
+  #display > div {
+    width: 100%;
+    height: 450px;
+    margin-top: 30px;
+  }
+  #display img {
+    height: 60%;
+    width: 100%;
+  }
+  h3 {
+    margin-left: 10px;
+  }
+  #display h4 {
+    font-weight: lighter;
+    margin-left: 10px;
+  }
+  #checkOut{
+   text-decoration: none;
+   color: black;
+   display: flex;
+   justify-content: center;
+   padding:20px;
+   background-color: rgb(190, 190, 190);
+   margin-bottom: 70px;
+
+  }
+  #checkOut:hover{
+    background-color: bisque;
+    cursor: pointer;
+  }
+ 
